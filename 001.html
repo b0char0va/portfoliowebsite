@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="001.css">
+    <script src="001.js"></script>
+
+</head>
+<body>
+<!--navbar starts-->
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-danger">
+    <div class="container">
+        <a class="navbar-brand" href="#">My Portfolio Page</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link scroll" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scroll" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scroll" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--navbar ends, middle part starts- portfolio followed by contact starts-->
+<main role="main" class="container mt-5" id="about">
+    <div class="row bg-color py-5">
+        <div class="col-sm-8 align-text text-md-right text-center ">
+            <h5>Front-End Developer and UX/UI designer, with practical experience in project management, branding
+                strategy, and creative direction; devoted to functional programming and information architecture. </h5>
+            <hr>
+            <h4>Front End Developer</h4>
+        </div>
+        <div class="col-sm-4 align-img">
+            <img src="profilepic.jpg" class="img-fluid rounded-circle mx-auto d-block text-center" alt="profile pic">
+        </div>
+    </div>
+    <div class="mt-5 mb-5 " id="portfolio">
+        <h1 class="text-center">Portfolio</h1>
+        <hr class="divide">
+        <div class="row">
+            <div class="col-sm-6 my-4">
+                <img src="sample1.jpg" class="img-fluid mx-auto d-block border" alt="sample image">
+            </div>
+            <div class="col-sm-6 my-4">
+                <img src="sample.jpg" class="img-fluid mx-auto d-block border" alt="sample image">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 my-4">
+                <img src="sample.jpg" class="img-fluid mx-auto d-block border" alt="sample image">
+            </div>
+            <div class="col-sm-6 my-4">
+                <img src="sample.jpg" class="img-fluid mx-auto d-block border" alt="sample image">
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div id="contact">
+        <h1 class="text-center mt-5">Contact</h1>
+        <hr class="divide">
+        <div class="row  py-5 text-md-left text-center">
+            <div class="col-sm-6 align-text ">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control" id="email" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="number" class="form-control" id="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-danger">Submit</button>
+                </form>
+            </div>
+            <div class="col-sm-6">
+                <h5>Want to get in touch with me? Be it to request more info about myself or my experience,
+                    to ask for my resume, tips on how to solve your sudoku,
+                    random questions about the universe and the meaning of life, or even if only for some nice Fika here
+                    in stunning Toronto...
+                    just feel free to drop me a line anytime.</h5>
+                <br>
+                <h5> I promise to reply A.S.A.P.</h5>
+            </div>
+        </div>
+    </div>
+</main>
+<!-- social media starts-->
+<div class="bg-color py-5">
+    <div class="container">
+        <div class="row bg-color py-5">
+            <div class="col-sm-6">
+                <h5 class="text-md-left text-center ">ABOUT THIS PAGE</h5>
+                <p class="text-md-left text-center ">Made by Mona Bocharova</p>
+            </div>
+            <div class="col-sm-6 text-md-right text-center">
+                <h5 class="text-md-right text-center ">AROUND THE WEB</h5>
+                <a href="https://twitter.com/monabocharova" target="_blank" class="fa fa-twitter rounded-circle"></a>
+                <a href="https://www.linkedin.com/in/monabocharova/" target="_blank" class="fa fa-linkedin rounded-circle"></a>
+                <a href="https://github.com/b0char0va" target="_blank" class="fa fa-github rounded-circle"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer -->
+<footer class="footer bg-danger">
+    <div class="container text-light text-center py-4">
+        <span>All rights reserved</span>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,52 @@
+
+.bg-color {
+    background-color: #e0e2e5;
+}
+
+.divide {
+    width: 50%;
+    position: relative;
+    border: 0;
+    border-top: solid 5px gray;
+}
+
+.align-text {
+    margin-bottom: 25px;
+    margin-top: auto;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 15px;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.5;
+}
+
+/* Set a specific color for each brand */
+
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #0077B5;
+    color: white;
+}
+
+.fa-github {
+    background: #000000;
+    color: white;
+}
+
+
