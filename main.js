@@ -1,8 +1,6 @@
 $(document).ready(function () {
 
     var headerHeight = $('nav').outerHeight();
-
-
     $('.scroll').click(function (e) {
         var linkHref = $(this).attr('href');
         e.preventDefault();
